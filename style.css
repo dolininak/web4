@@ -95,14 +95,9 @@ form{
     padding:20px;
 }
 @media  (min-width:800px){
-    .col-12{
+    .header container-fluid{
         background-color:bisque;
-        height:160px;
-        text-align:right;
-        width:100%;
-        display:flex;
-        justify-content:space-between;
-        align-items:center;
+        
         
     }
     header{
