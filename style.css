@@ -117,11 +117,9 @@ form{
         text-align:left;
         
     }
-    .logo-img{ 
-        height:100px;
-        width:100px;
-        float:left;
-    }
+   .logo col-2{ 
+ width:4%;
+}
     .name{
         text-align:left;
         color:brown;
