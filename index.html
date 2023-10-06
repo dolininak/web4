@@ -4,32 +4,38 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="bootstrap.min.css" rel="stylesheet" >
-<title>Задание 3</title>
+<title>Задание 4</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    
-    <div class="header container-fluid">
-        <div class ="container">
-            <div class="row justify-content-end align-items-center">
-                <nav lass="col-6 d-flex justify-content-between align-items-center">
-                    <ul >
-                        <li class="col-2 justify-content-center align-items-center"><a href="#p1">Список гиперссылок</a></li>
-                        <li class="col-2 justify-content-center align-items-center"> <a href="#p2"> Таблица</a> </li>
-                        <li class="col-2 justify-content-center align-items-center"> <a href="#p3">Форма</a> </li>     
-                    </ul>
-                </nav>
-            </div>
-            <div class="row col-6 d-flex justify-content-between align-items-center">
-                <div class="logo col-2">
-                    <img src="logo.png" width:100 height:100 alt="logo">
+    <header>
+    <div class="head-top container-fluid ">
+       <div class="container">
+            <div class="row align-items-center" >
+                <div class="logo col-1 col-md-2">
+                    <img src="logo.png"  alt="logo" class="logo">
                     
                 </div>
-                <h1 class=" name col-3">Задание 4</h1>
+                <div class=" name col-7 col-md-3 "><h1>Задание 4</h1></div>
+                
+                <nav class=" col-md-7 d-flex   justify-content-md-end ">
+                    
+                    <ul >
+                        <div class=" row d-flex   justify-content-md-end">
+                        <li class="col-md-5 col-12 d-flex justify-content-sm-begin justify-content-md-center "><a href="#p1">Список гиперссылок</a></li>
+                        <li class="col-md-3 col-12 d-flex justify-content-sm-begin justify-content-md-center "> <a href="#p2"> Таблица</a> </li>
+                        <li class=" col-md-3 col-12 d-flex justify-content-sm-begin justify-content-md-center "> <a href="#p3">Форма</a> </li>     
+                    </div>
+                    </ul>
+               
+                </nav>
             </div>
-        </div>
+
+        </div>  
+            
+        
     </div>
+</header>
     
     <div class="wrapper">
     <div class="giper">
@@ -71,8 +77,7 @@
     <table id="p2">
         <tr>
             <th>1 </th>
-            <th>2</th>
-            <th>3</th>
+            <th colspan="2">2 и 3</th>
             <th>4</th>
         </tr>
         <tr>
