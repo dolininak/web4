@@ -45,11 +45,9 @@ nav li a {
     text-align:center;
     
 }
-.giper{
-    order:2;
-}
+
 table{
-    order:1; 
+    
     text-align:center;
     border-spacing:5px;
     background:rgb(249, 174, 84);
@@ -75,27 +73,8 @@ tr:nth-child(odd){
     background:skyblue ;
     
 }
-form{
-    order:3;
-}
 
 .footer{
     text-align:left;
     padding:20px;
-}
-@media  (min-width:768px){
-    
-        
-    .giper{
-        order:1;
-    }
-    table{
-        order:2; 
-      
-    
-    }
-    form{
-        order:3;
-    }
-  
 }
