@@ -11,19 +11,12 @@ header .head-top{
     width:100px;
    
 }
-.name{
-    
+.name{  
     color:brown;
-    
-    order:1;
-    
-   
 }
 
 nav {  
     list-style:none;
-    order:2;
-    
 }
 nav li a {
     color:brown;
@@ -33,31 +26,18 @@ nav li a {
     margin:3px;
     border-radius:5px;
 }
-
 .wrapper{
-    display:flex;
-    flex-direction:column;
-    max-width: 960px;
-    
-    margin-left:  auto;
-    margin-right:  auto;
-    background:#FFE4B5;
-    text-align:center;
-    
+    background-color:#FFE4B5
 }
 
+
 table{
-    
-    text-align:center;
     border-spacing:5px;
     background:rgb(249, 174, 84);
     color:rgb(0, 0, 0);
     border:16px solid #f2cea2;
     border-radius:20px;
     width:60%;
-    justify-content:center;
-    margin-left:auto;
-    margin-right:auto;
 
 }
 th{
@@ -74,7 +54,5 @@ tr:nth-child(odd){
     
 }
 
-.footer{
-    text-align:left;
-    padding:20px;
-}
+
+
